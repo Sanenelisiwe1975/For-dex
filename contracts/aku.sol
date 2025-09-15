@@ -5,9 +5,9 @@ pragma solidity ^0.8.27;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Lia is ERC20, Ownable {
+contract Aku is ERC20, Ownable {
     constructor(address recipient, address initialOwner)
-        ERC20("Lia", "LI")
+        ERC20("Aku", "AK")
         Ownable(initialOwner)
     {
         _mint(recipient, 100 * 10 ** decimals());
