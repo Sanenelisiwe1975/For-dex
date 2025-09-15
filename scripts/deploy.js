@@ -28,7 +28,7 @@ async function main() {
   console.log("Aku Token:", aku.address);
 }
 
-// We recommend this pattern to be able to use async/await everywhere
+// recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
 async function main() {
   await deployTokens();
